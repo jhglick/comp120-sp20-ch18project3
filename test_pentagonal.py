@@ -12,7 +12,7 @@ sys.stdout = old_stdout
 
 correct_ans = [[1, 5, 12, 22, 35, 51, 70, 92, 117, 145],
     [176, 210, 247, 287, 330, 376, 425, 477, 532, 590],
-    [651, 715, 782, 852, 925, 1000]]
+    [651, 715, 782, 852, 925]]
 
 ans = [[int(str) for str in line.strip().split(" ")] for line in s.split("\n")]
 
